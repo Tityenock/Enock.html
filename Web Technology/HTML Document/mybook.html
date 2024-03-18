@@ -1,0 +1,114 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nursery Management System</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+      text-align: justify;
+    }
+
+    img {
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+    }
+
+    .login-form {
+      margin-top: 50px;
+      text-align: center;
+    }
+
+    .login-form input[type="text"],
+    .login-form input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    .login-form input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .login-form input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+
+    .attribution {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 12px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+<center>
+    <ul style="list-style-type: none; padding: 0;">
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./home.html">HOME</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./about.html">ABOUT</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./contact.html">CONTACT</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./services.html">SERVICES</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./form.html">FORM</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./table.html">TABLE</a></li>
+        <li style="display: inline; background-color:pink; margin-right: 10px"><a href="./mybook.html">MYBOOK</a></li>
+    </ul>
+</center>
+<div class="container">
+  <h1>Welcome to Nursery Management System</h1>
+  <p>
+    Our Nursery Management System is designed to streamline the operations of nurseries, making it easier for administrators, teachers, and parents to manage and track various aspects of childcare and education.
+  </p>
+  <img src="nursery_image.jpg" alt="Nursery Management System" />
+  <p>
+    With our system, administrators can efficiently handle enrollment, staff management, scheduling, and communication with parents. Teachers can easily record attendance, track children's progress, and create lesson plans tailored to individual needs.
+  </p>
+  <p>
+    Parents benefit from real-time updates on their child's activities, access to important information such as schedules and announcements, and seamless communication with teachers and administrators.
+  </p>
+  <p>
+    Our Nursery Management System aims to provide a comprehensive solution for the modern nursery, enhancing efficiency, communication, and ultimately, the quality of care and education provided to children.
+  </p>
+
+  <div class="login-form">
+    <h2>Login to Nursery Management System</h2>
+    <form action="login.php" method="post">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+  <div class="attribution">
+    Login form prepared by TWAHIRWA Enock
+  </div>
+</div>
+
+</body>
+</html>
